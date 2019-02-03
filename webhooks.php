@@ -17,19 +17,20 @@ if (!is_null($events['events'])) {
 			case 'message':
 				switch ($event['message']['type']) {
 					case 'text':
-						//switch ($event['message']['text']) {
-							//case 'switch1':
+						switch ($event['message']['text']) {
+							case 'switch1':
 								$messages2 = [
 									'type' => 'text',
 									'text' => 'hello fromn swich case'
 								];
-								//break;
-							//case 'switch2':
+								break;
+							case 'switch2':
 								# code...
-							//default:
+								break;
+							default:
 								# code...
-								//break;
-						//}
+								break;
+						}
 						break;
 					case 'sticker':
 						# code...
@@ -44,7 +45,7 @@ if (!is_null($events['events'])) {
 				break;
 		}
 		// Reply only when message sent is in 'text' format
-		if ($event['type'] == 'message' && $event['message']['text'] == 'profile') {
+		//if ($event['type'] == 'message' && $event['message']['text'] == 'profile') {
 			// Get text sent
 			$text = $event['source']['userId'];
 			// Get replyToken
@@ -75,7 +76,7 @@ if (!is_null($events['events'])) {
 			curl_close($ch);
 
 			echo $result . "\r\n";
-		}
+		//}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'flex') {
 			// Get text sent
 			$text = $event['source']['userId'];

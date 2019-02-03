@@ -21,11 +21,11 @@ if (!is_null($events['events'])) {
 							case 'hello':
 								$messages = [
 									'type' => 'text',
-									'text' => 'hello fromn swich case'
+									'text' => 'hello from CTO Bot'
 								];
 								replyMessage($messages);
 								break;
-							case 'flex':
+							case 'promotion':
 								$flex = file_get_contents('./sample-flex/sample-flex.json');
 								$messages = json_decode($flex);
 								replyMessage($messages);

@@ -2,119 +2,191 @@
     "type": "flex",
     "altText": "Flex Message",
     "contents": {
-      "type": "bubble",
-      "header": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-            "text": "NEWS DIGEST",
-            "size": "sm",
-            "weight": "bold",
-            "color": "#AAAAAA"
-          }
-        ]
-      },
-      "hero": {
-        "type": "image",
-        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_4_news.png",
-        "size": "full",
-        "aspectRatio": "20:13",
-        "aspectMode": "cover",
-        "action": {
-          "type": "uri",
-          "label": "Action",
-          "uri": "https://linecorp.com/"
-        }
-      },
-      "body": {
-        "type": "box",
-        "layout": "horizontal",
-        "spacing": "md",
-        "contents": [
-          {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
             "type": "box",
             "layout": "vertical",
-            "flex": 1,
             "contents": [
               {
-                "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/02_1_news_thumbnail_1.png",
-                "gravity": "bottom",
+                "type": "text",
+                "text": "CLOTHES",
                 "size": "sm",
-                "aspectRatio": "4:3",
-                "aspectMode": "cover"
-              },
-              {
-                "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/02_1_news_thumbnail_2.png",
-                "margin": "md",
-                "size": "sm",
-                "aspectRatio": "4:3",
-                "aspectMode": "cover"
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
               }
             ]
           },
-          {
+          "hero": {
+            "type": "image",
+            "url": "https://cf.shopee.com.my/file/115bb7dce658f6c004c0f7ad82cd4266",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
             "type": "box",
             "layout": "vertical",
-            "flex": 2,
             "contents": [
               {
                 "type": "text",
-                "text": "7 Things to Know for Today",
-                "flex": 1,
-                "size": "xs",
-                "gravity": "top"
-              },
-              {
-                "type": "separator"
+                "text": "Sales 30% OFF",
+                "size": "lg",
+                "align": "start",
+                "color": "#AA3232"
               },
               {
                 "type": "text",
-                "text": "Hay fever goes wild",
-                "flex": 2,
-                "size": "xs",
-                "gravity": "center"
-              },
-              {
-                "type": "separator"
-              },
-              {
-                "type": "text",
-                "text": "LINE Pay Begins Barcode Payment Service",
-                "flex": 2,
-                "size": "xs",
-                "gravity": "center"
-              },
-              {
-                "type": "separator"
-              },
-              {
-                "type": "text",
-                "text": "LINE Adds LINE Wallet",
-                "flex": 1,
-                "size": "xs",
-                "gravity": "bottom"
+                "text": "Feb 2 - 10"
               }
             ]
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "message",
-              "label": "Send Message",
-              "text": "Message"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "More",
+                  "text": "clothes selected"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#AA3232"
             }
           }
-        ]
-      }
+        },
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "WATCHES",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://www.watchswiss.com/wp-content/uploads/2018/01/1029_5watchconcept.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Sales 30% OFF",
+                "size": "lg",
+                "align": "start",
+                "color": "#95B023"
+              },
+              {
+                "type": "text",
+                "text": "Feb 2 - 10"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "More",
+                  "text": "watches selected"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#D8CB27"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SNEAKERS",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://ssli.ulximg.com/image/740x493/cover/1535808165_ffa3a738e74c8342b39a104054ffce58.jpg/6a52550a42ee46c8a3a97c00b79f41fb/1535808165_c33622ccf7d9d9ebcfdbf987902b41f1.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Sales 80% OFF",
+                "size": "lg",
+                "align": "start",
+                "color": "#403D96"
+              },
+              {
+                "type": "text",
+                "text": "Feb 2 - 10"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "More",
+                  "text": "sneakers selected"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#403D96"
+            }
+          }
+        }
+      ]
     }
   }

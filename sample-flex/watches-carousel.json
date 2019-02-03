@@ -1,0 +1,192 @@
+{
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "WATCH 1",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://c.76.my/Malaysia/casio-mtp-v002gl-9budf-men-s-analog-date-gold-leather-watch-mtp-v002gl-9b-onsalewatches-1708-16-F489994_1.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "720 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#608710"
+              },
+              {
+                "type": "text",
+                "text": "50% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#000000"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "WATCH 1",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://c.76.my/Malaysia/casio-mtp-v002gl-9budf-men-s-analog-date-gold-leather-watch-mtp-v002gl-9b-onsalewatches-1708-16-F489994_1.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "720 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#608710"
+              },
+              {
+                "type": "text",
+                "text": "50% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#000000"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "WATCH 1",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://c.76.my/Malaysia/casio-mtp-v002gl-9budf-men-s-analog-date-gold-leather-watch-mtp-v002gl-9b-onsalewatches-1708-16-F489994_1.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "720 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#608710"
+              },
+              {
+                "type": "text",
+                "text": "50% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#000000"
+            }
+          }
+        }
+      ]
+    }
+  }

@@ -30,11 +30,9 @@ if (!is_null($events['events'])) {
 								$messages = json_decode($flex);
 								replyMessage($messages);
 								break;
-							case 'Message':
-								$messages = [
-									'type' => 'text',
-									'text' => 'I got the message !!'
-								];
+							case 'clothes selected':
+								$flex = file_get_contents('./clothes-carousel.json');
+								$messages = json_decode($flex);
 								replyMessage($messages);	
 							default:
 								# code...

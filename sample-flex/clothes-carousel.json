@@ -1,0 +1,131 @@
+{
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CLOTHES 1",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://img.shopstyle-cdn.com/pim/fa/68/fa68613a7483a9a164206d537b998977_xlarge.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1290 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#AA3232"
+              },
+              {
+                "type": "text",
+                "text": "30% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#000000"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CLOTHES 2",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://www.dhresource.com/0x0s/f2-albu-g6-M00-20-37-rBVaSFqL68GANqYCAAMIIyVfff4165.jpg/luxury-shirt-men-chemise-homme-2017-brand.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "890 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#AA3232"
+              },
+              {
+                "type": "text",
+                "text": "50% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#000000"
+            }
+          }
+        }
+      ]
+    }
+  }

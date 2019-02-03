@@ -31,7 +31,7 @@ if (!is_null($events['events'])) {
 								replyMessage($messages);
 								break;
 							case 'clothes selected':
-								$flex = file_get_contents('./clothes-carousel.json');
+								$flex = file_get_contents('./sample-flex/clothes-carousel.json');
 								$messages = json_decode($flex);
 								replyMessage($messages);	
 							default:

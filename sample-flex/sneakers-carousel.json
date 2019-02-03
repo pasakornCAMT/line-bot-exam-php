@@ -1,0 +1,131 @@
+{
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SNEAKERS 1",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://engine.searchin.it/storage/releases/nike/nike-cortez-basic-sl-ah7528-102.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "3200 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#B87979"
+              },
+              {
+                "type": "text",
+                "text": "20% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#B87979"
+            }
+          }
+        },
+        {
+          "type": "bubble",
+          "direction": "ltr",
+          "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SNEAKERS 1",
+                "size": "sm",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://engine.searchin.it/storage/releases/nike/nike-cortez-basic-sl-ah7528-102.jpg",
+            "size": "full",
+            "aspectRatio": "1.51:1",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "3200 THB",
+                "size": "lg",
+                "align": "start",
+                "color": "#B87979"
+              },
+              {
+                "type": "text",
+                "text": "20% OFF"
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "Buy",
+                  "text": "buy"
+                }
+              }
+            ]
+          },
+          "styles": {
+            "header": {
+              "backgroundColor": "#B87979"
+            }
+          }
+        }
+      ]
+    }
+  }

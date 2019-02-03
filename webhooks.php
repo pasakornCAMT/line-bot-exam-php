@@ -39,6 +39,11 @@ if (!is_null($events['events'])) {
 								$flex = file_get_contents('./sample-flex/watches-carousel.json');
 								$messages = json_decode($flex);
 								replyMessage($messages);
+								break;
+							case 'sneakers selected':
+								$flex = file_get_contents('./sample-flex/sneakers-carousel.json');
+								$messages = json_decode($flex);
+								replyMessage($messages);
 								break;		
 							default:
 								# code...

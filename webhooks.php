@@ -13,36 +13,36 @@ $events = json_decode($content, true);
 if (!is_null($events['events'])) {
 	// Loop through each event
 	foreach ($events['events'] as $event) {
-		// switch ($event['type']) {
-		// 	case 'message':
-		// 		switch ($event['message']['type']) {
-		// 			case 'text':
-		// 				switch ($event['message']['text']) {
-		// 					case 'switch1':
-		// 						$messages2 = [
-		// 							'type' => 'text',
-		// 							'text' => 'hello fromn swich case'
-		// 						];
-		// 						break;
-		// 					case 'switch2':
-		// 						# code...
-		// 					default:
-		// 						# code...
-		// 						break;
-		// 				}
-		// 				break;
-		// 			case 'sticker':
-		// 				# code...
-		// 				break;
-		// 			default:
-		// 			error_log("Unsupported message type: " . $event['type']);
-		// 				break;
-		// 		}
-		// 		break;
-		// 	default:
-		// 		error_log("Unsupported event type: " . $event['type']);
-		// 		break;
-		// }
+		switch ($event['type']) {
+			case 'message':
+				switch ($event['message']['type']) {
+					case 'text':
+						//switch ($event['message']['text']) {
+							//case 'switch1':
+								$messages2 = [
+									'type' => 'text',
+									'text' => 'hello fromn swich case'
+								];
+								//break;
+							//case 'switch2':
+								# code...
+							//default:
+								# code...
+								//break;
+						//}
+						break;
+					case 'sticker':
+						# code...
+						break;
+					default:
+					error_log("Unsupported message type: " . $event['type']);
+						break;
+				}
+				break;
+			default:
+				error_log("Unsupported event type: " . $event['type']);
+				break;
+		}
 		// Reply only when message sent is in 'text' format
 		if ($event['type'] == 'message' && $event['message']['text'] == 'profile') {
 			// Get text sent
@@ -60,7 +60,7 @@ if (!is_null($events['events'])) {
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
 				'replyToken' => $replyToken,
-				'messages' => [$messages],
+				'messages' => [$messages2],
 			];
 			$post = json_encode($data);
 			$headers = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
@@ -229,6 +229,7 @@ if (!is_null($events['events'])) {
 			// ];
 
 			$messages = json_decode($flex);
+
 
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';

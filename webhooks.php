@@ -224,6 +224,7 @@ if (!is_null($events['events'])) {
 }
 
 function replyMessage($send){
+	global $event, $access_token;
 	// Get text sent
 	$text = $event['source']['userId'];
 	// Get replyToken

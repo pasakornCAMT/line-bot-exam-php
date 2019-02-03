@@ -109,9 +109,9 @@
           {
             "type": "button",
             "action": {
-              "type": "uri",
-              "label": "More",
-              "uri": "https://linecorp.com"
+              "type": "message",
+              "label": "Send Message",
+              "text": "Message"
             }
           }
         ]

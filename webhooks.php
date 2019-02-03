@@ -30,6 +30,12 @@ if (!is_null($events['events'])) {
 								$messages = json_decode($flex);
 								replyMessage($messages);
 								break;
+							case 'Message':
+								$messages = [
+									'type' => 'text',
+									'text' => 'I got the message !!'
+								];
+								replyMessage($messages);	
 							default:
 								# code...
 								break;

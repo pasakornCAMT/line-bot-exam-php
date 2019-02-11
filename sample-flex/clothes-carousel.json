@@ -52,10 +52,10 @@
               {
                 "type": "button",
                 "action": {
-                  "type": "message",
+                  "type": "uri",
                   "label": "Buy",
-                  "text": "buy"
-                }
+                  "uri": "https://developers.line.me"
+                 }
               }
             ]
           },
@@ -113,10 +113,10 @@
               {
                 "type": "button",
                 "action": {
-                  "type": "message",
+                  "type": "uri",
                   "label": "Buy",
-                  "text": "buy"
-                }
+                  "uri": "https://developers.line.me"
+                 }
               }
             ]
           },

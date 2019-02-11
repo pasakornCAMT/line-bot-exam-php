@@ -54,7 +54,7 @@
                 "action": {
                   "type": "uri",
                   "label": "Buy",
-                  "uri": "https://developers.line.me"
+                  "uri": "line://app/1643423194-3Kl2W55b"
                  }
               }
             ]
@@ -115,7 +115,7 @@
                 "action": {
                   "type": "uri",
                   "label": "Buy",
-                  "uri": "https://developers.line.me"
+                  "uri": "line://app/1643423194-3Kl2W55b"
                  }
               }
             ]
